@@ -24,7 +24,7 @@ import (
 func main() {
 	key := flag.String("key", "", "API key")
 	originalURL := flag.String("original-link", "", "link that needs to be shortend")
-	domain := flag.String("domain", "short.ksingh.in", "domain to shorten the link to")
+	domain := flag.String("domain", "short.ksingh.in", "domain to shorten the link to (example : short.ksingh.in)")
 	path := flag.String("customized-link-path", "", "(optional) path part of newly created link. If empty - it will be generated automatically")
 	title := flag.String("title", "hello test", "(optional) title of created URL to be shown in short.io admin panel, use  ' ' ")
 	allowDuplicates := flag.String("allow-duplicates", "false", "(optional) allow duplicates. If empty - it will be set to false")
