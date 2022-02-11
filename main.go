@@ -9,17 +9,17 @@ import (
 	"flag"
 	"os"
 )
-	type Payload struct {
-		AllowDuplicates string	`json:"allowDuplicates"`
-		Domain string		`json:"domain"`
-		Tags []string		`json:"tags"`
-		OriginalURL string	`json:"originalURL"`
-		UtmSource string	`json:"utmSource"`
-		UtmMedium string	`json:"utmMedium"`
-		UtmCampaign string	`json:"utmCampaign"`
-		Title string	`json:"title"`
-		Path string	`json:"path"`
-		}
+type Payload struct {
+	AllowDuplicates string	`json:"allowDuplicates"`
+	Domain string		`json:"domain"`
+	Tags []string		`json:"tags"`
+	OriginalURL string	`json:"originalURL"`
+	UtmSource string	`json:"utmSource"`
+	UtmMedium string	`json:"utmMedium"`
+	UtmCampaign string	`json:"utmCampaign"`
+	Title string	`json:"title"`
+	Path string	`json:"path"`
+	}
 
 func main() {
 	key := flag.String("key", "", "API key")
