@@ -10,8 +10,8 @@ This is a simple URL shortner Go Lang client that uses the [short.io](https://sh
 - Create a free account on [short.io](https://short.io)
 - Get the API Key
 - Register your custome domain name with short.io and update the CNAME record to point to your domain name
-
-- Short the URL
+- Grab the `short.io` executable file provided in this repository
+- Short your favourite URL
 ```
 ./short.io -key xxxxx -allow-duplicates true -customized-link-path pushpa -domain short.ksingh.in -original-link https://www.imdb.com/title/tt9389998-tag RHD -title 'mai jhukaga nahi' -utm-source ksingh-blogs -debug false
 ```
