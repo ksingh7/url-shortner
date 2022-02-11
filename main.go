@@ -33,7 +33,6 @@ func main() {
 	debug := flag.String("debug", "false", "(optional) debug mode. If empty - it will be set to false")
 	flag.Parse()
 	url := "https://api.short.io/links"
-	// key := "sk_QsTrbgdzY8Sg8NdJ"
 
 	payload := &Payload{
 	AllowDuplicates: *allowDuplicates,
